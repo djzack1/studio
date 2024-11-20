@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Студия звукозаписи - профессиональная запись музыки, подкастов и мастеринга">
+    <title>Студия звукозаписи - [Название студии]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О студии</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главная страница -->
+    <section id="home">
+        <div class="hero">
+            <h1>Добро пожаловать в [Название студии]</h1>
+            <p>Ваше место для качественной записи и производства музыки!</p>
+            <a href="#contact" class="cta">Записать с нами</a>
+        </div>
+    </section>
+
+    <!-- О студии -->
+    <section id="about">
+        <h2>О студии</h2>
+        <p>Студия [Название студии] — это место, где профессиональные и начинающие музыканты могут создать звук, который они всегда мечтали. Мы оснащены новейшей техникой и предоставляем широкий спектр услуг — от записи до финальной обработки аудио.</p>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="service">
+            <h3>Запись музыки</h3>
+            <p>Профессиональная запись вокала и инструментов.</p>
+        </div>
+        <div class="service">
+            <h3>Сведение и мастеринг</h3>
+            <p>Мы поможем вам довести ваш трек до совершенства.</p>
+        </div>
+        <div class="service">
+            <h3>Запись подкастов</h3>
+            <p>Запись и обработка подкастов с идеальным звуком.</p>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio">
+        <h2>Наши работы</h2>
+        <p>Послушайте наши работы и убедитесь в качестве наших услуг.</p>
+        <div class="portfolio-item">
+            <audio controls>
+                <source src="example-track.mp3" type="audio/mp3">
+                Ваш браузер не поддерживает элемент audio.
+            </audio>
+            <p>Пример трека 1</p>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact">
+        <h2>Связаться с нами</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваша почта" required>
+            <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2024 [Название студии]. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
